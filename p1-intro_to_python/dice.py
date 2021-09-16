@@ -1,7 +1,7 @@
 import random
 
 def role_n_sides_n_times(sides, roles):
-    #roles a n sided dice for n roles takes (sides, roles)
+    """Role a n sided die n times"""
     roles_list = []
 
     for roles in range(roles):
